@@ -1,0 +1,129 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{color}
+
+\newcommand{\graycolor}{\textcolor[rgb]{0.3,0.3,0.3}}
+
+% Set applicant's personal data for header
+\name{Xiaoguo LI}
+\address{DLB 625 \linebreak 224 Waterloo Rd \linebreak Kowloon Tong, Hong Kong \linebreak China}
+\contacts{(852) 9633-7861 \linebreak (86) 188-7520-9206 \linebreak csxgli@comp.hkbu.edu.hk}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{\Large About Me}
+		\begin{cvsubsection}{}{}{}\graycolor{Xiaoguo LI now is a postdoctoral researcher fellow at the Database Lab, Hong Kong Baptist University. He received the Ph.D. degree in Computer Science from Chongqing University, China, in July 2019. His current research interests include
+				\begin{enumerate}
+					\item Federated data analytics with privacy assurance;
+					\item Data sharing with fine-grained access control;
+					\item Differential privacy and its applications;
+					\item Cryptographic protocols and its applications.
+				\end{enumerate}}
+		\end{cvsubsection}
+	\end{cvsection}
+
+
+	\begin{cvsection}{\Large Experience}
+		\begin{cvsubsection}{Hong Kong Baptist University}{Hong Kong, China}{}
+			\graycolor{Postdoctoral Researcher Fellow (Supervised by Prof. Jianliang Xu), Sep. 2019 -- Sep. 2021
+				\begin{enumerate}
+					\item Developed a novel protocol to enable oblivious federated join.
+					\item Implemented the protocol on the Intel SGX devices.
+				\end{enumerate}	
+			}
+		\end{cvsubsection}
+		\begin{cvsubsection}{University of Wollongong}{Wollongong, Australia}{}
+			\graycolor{Visiting Student (Supervised by Prof. Yi Mu), Oct. 2017 -- Oct. 2018
+			\begin{enumerate}
+				\item Conducted a security reduction training.
+				\item Implemented a Chinese-Wall access control model in a cryptographic way.
+			\end{enumerate}	
+			}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{\Large Education}
+		\begin{cvsubsection}{Chongqing University}{Chongqing, China}{}
+			\graycolor{Ph.D. in Computer Sciences (Supervised by Prof. Tao Xiang), Sep. 2015 -- Jul. 2019}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Chongqing University}{Chongqing, China}{}
+			\graycolor{Pursuing the M.S. Degree in Computer Sciences (Supervised by Prof. Tao Xiang), Sep. 2013 -- Jul. 2015}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Shanxi Normal University}{Linfen, China}{}
+			\graycolor{B.Eng. in Computer Sciences, Sep. 2009 -- Jul. 2013}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{\Large Publication}
+		\begin{cvsubsection}{}{}{}\graycolor{
+			\begin{enumerate}
+				\item \textbf{Xiaoguo Li}, Tao Xiang, Yi Mu, Fuchun Guo and Zhongyuan Yao. Formulating Chinese Wall Model with Privacy Enhancement and Its Applications in Cloud Computing. Submitted to IEEE Trans. on Cloud Computing.
+				\item \textbf{Xiaoguo Li}, Tao Xiang, Shangwei Guo and Yi Mu. Privacy-Preserving Reverse Nearest Neighbor Query over Encrypted Spatial Data. IEEE Trans. on Services Computing, Doi: 10.1109/TSC.2021.3065356.
+				\item \textbf{Xiaoguo Li}, Tao Xiang, Peng Wang. Achieving Forward Unforgeability in Keyword-field-free Conjunctive Search. Journal of Network and Computer Applications, 2020, 166:102755.
+				\item \textbf{Xiaoguo Li}, Tao Xiang, Fei Chen, Shangwei Guo. Efficient Biometric Identity-based Encryption. Information Sciences, 2018, 465: 248-264.
+				\item Tao Xiang, \textbf{Xiaoguo Li}, Fei Chen, Yuanyuan Yang and Shengyu Zhang. Achieving Verifiable, Dynamic and Efficient Auditing for Outsourced Database in Cloud. Journal of Parallel Distributed Computing, 2018, 112: 97-107.
+				\item Tao Xiang, \textbf{Xiaoguo Li}, Fei Chen, Shangwei Guo and Yuanyuan Yang. Processing Secure, Verifiable and Efficient SQL over Outsourced Database. Information Sciences, 2016, 348: 163-178.
+				\item Tao Xiang, \textbf{Xiaoguo Li}, Fei Chen and Yi Mu. Bilateral-secure Signature by Key Evolving. ASIACCS, 2016, 523-533.
+				\item Peng Wang, Tao Xiang, \textbf{Xiaoguo Li}, Hong Xiang. Access Control Encryption without Sanitizers for Internet of Energy. Information Sciences, 2021, 546: 924-942.
+				\item Peng Wang, Tao Xiang, \textbf{Xiaoguo Li}, Hong Xiang. Public Key Encryption with Conjunctive Keyword Search on Lattice. Journal of Information Security and Applications, 2020, 51: 102433.
+				\item Shangwei Guo, Tao Xiang, \textbf{Xiaoguo Li}, Ying Yang. PEID: A Perceptually Encrypted Image Database for Visual Security Evaluation. IEEE Trans. on Information Forensics and Security, 2019, 15: 1151-1163.
+				\item Shangwei Guo, Tao Xiang, \textbf{Xiaoguo Li}. Towards Efficient Privacy-Preserving Face Recognition in the Cloud. Signal Processing, 2019, 164:320-328.
+				\item Tao Xiang, Yang Li, and \textbf{Xiaoguo Li}, Shigang Zhong and Shui Yu. Collaborative Enemble Learning Under Differential Privacy. Web Intelligence, 2018, 16(1): 73-87.
+				\item Tao Xiang, Shangwei Guo, and \textbf{Xiaoguo Li}. Perceptual Visual Security Index Based on Edge and Texture Similarities. IEEE Trans. on Information Forensics and Security, 2016, 11(5): 951-963.
+				\item Shangwei Guo, Tao Xiang, and \textbf{Xiaoguo Li}. Image Quality Assessment based on Multiscale Fuzzy Gradient Similarity Deviation. Soft Computing, 2017, 21(5): 1145-1155.
+				\item Yueyue Zhou, Tao Xiang, \textbf{Xiaoguo Li}. Efficient and Privacy-Preserving Query on Outsourced Spherical Data. ICA3PP, 2018: 138-152.
+			\end{enumerate}}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{\Large Project}
+	\begin{cvsubsection}{}{}{}\graycolor{
+			\begin{enumerate}
+				\item \textbf{Federated data analytics using hardware enclaves.} This project aims to develop efficient federated techniques for advanced data analytics using
+				hardware enclaves (e.g., Intel SGX). We propose a novel analytics framework that
+				supports oblivious and efficient data access in query processing. We propose new data-oblivious techniques for various federated analytics queries, including joins, SQL queries, and graph queries.
+				\item \textbf{Embedding the biometric features in the identity-based encryption.} This project aims to design a secure, time-saving and space-saving biometric identity-based encryption (BIBE) regarding the	biometric-based identity (face, etc.) as public key. We propose techniques to overcome the challenge introduced by the fuzziness of biometric identities.
+			\end{enumerate}}
+	\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{\Large More}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Programming Skills}. \graycolor{C/C++; Python}
+				\item \textbf{Tools}. \graycolor{Linux; Intel SGX}
+				\item \textbf{Language}. \graycolor{Mandarin; English}
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
